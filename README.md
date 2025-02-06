@@ -16,4 +16,4 @@ Install `ts-node` with `npm install ts-node`.
 ## Running the program
 Generate the coordinate jsons with `ts-node coords/src/index.ts <slp_file> <output_path>`
 
-Then generate the heatmap with `python heatmap/heatmap.py <coordinate_json>
+Then generate the heatmap with `python heatmap/heatmap.py <coordinate_json>`
