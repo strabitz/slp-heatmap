@@ -1,0 +1,29 @@
+{
+    "name": "slp-coordinate-export",
+    "version": "1.0.0",
+    "description": "Exports the coordinates from a slp",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "/dist"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/strabitz/slp-heatmap"
+    },
+    "keywords": [
+        "slippi",
+        "slp",
+        "coordinates"
+    ],
+    "author": "strabitz",
+    "license": "GPL-3.0-or-later",
+    "devDependencies": {
+        "@babel/preset-typescript": "^7.23.2",
+        "@types/node": "^22.13.1",
+        "typescript": "^5.2.2"
+    },
+    "dependencies": {
+        "@slippi/slippi-js": "^6.7.0"
+    }
+}
