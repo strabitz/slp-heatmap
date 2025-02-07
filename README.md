@@ -9,11 +9,13 @@ website or standalone app up as well.
 
 ## Installation
 Run `yarn install` and `pip install -r requirements.txt` to install the
-necessary requirements.
+necessary requirements for node and python.
+
+Install `ffmpeg` in order to generate videos.
 
 Install `ts-node` with `npm install ts-node`.
 
 ## Running the program
 Generate the coordinate jsons with `ts-node coords/src/index.ts <slp_file> <output_path>`
 
-Then generate the heatmap with `python heatmap/heatmap.py <coordinate_json>`
+Then generate the heatmap with `python heatmap/heatmap.py <coordinate_json> --mode <image or video> --output <output_path>`
